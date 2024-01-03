@@ -52,6 +52,7 @@ export default defineConfig({
             { text: 'Promise/A+ 规范', link: '/docs/study/web/promise-a+' },
             { text: 'Plop 简化重复工作流', link: '/docs/study/web/plop' },
             { text: '设计模式之发布订阅模式', link: '/docs/study/web/event-emitter' },
+            { text: '你可能真的不会sticky', link: '/docs/study/web/position-sticky' },
             { text: 'provide/inject 依赖注入', link: '/docs/study/web/provide-inject' },
             { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
           ],
