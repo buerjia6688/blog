@@ -47,8 +47,9 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '通过 nvm 管理 Node 版本', link: '/docs/study/web/nvm' },
-            { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
+            { text: 'Git flow 工作流', link: '/docs/study/web/git-flow' },
             { text: 'provide/inject 依赖注入', link: '/docs/study/web/provide-inject' },
+            { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
           ],
         },
       ],
