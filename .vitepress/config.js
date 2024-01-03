@@ -65,7 +65,7 @@ export default defineConfig({
       // ],
     },
 
-    // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/like-buer/blog' }],
 
     footer: {
       copyright: ' 丨 <a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
