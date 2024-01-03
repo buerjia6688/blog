@@ -31,6 +31,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
+    logo: '/logo.jpg',
+
     nav: [
       { text: '主页', link: '/' },
       { text: '学习', link: '/docs/study/index', activeMatch: '/docs/study' },
@@ -68,7 +70,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/like-buer/blog' }],
 
     footer: {
-      copyright: ' 丨 <a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
+      copyright: '<a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
     },
 
     outlineTitle: '本页目录',

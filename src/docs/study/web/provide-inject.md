@@ -208,6 +208,4 @@ export const dataSymbol = Symbol() as InjectionKey<dataRaw>
 
 如果你有任何的疑问请关注微信公众号后台私信，我们一同探讨交流！
 
-如果觉得这篇文章对你有所帮助，关注微信公众号可进行文章推送！
-
 ![关注公众号](/assets/subscription.webp)
