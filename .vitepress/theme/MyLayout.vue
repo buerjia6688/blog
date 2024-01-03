@@ -18,7 +18,6 @@ const { Layout } = DefaultTheme
           categoryId="DIC_kwDOK_1uwc4CcIip"
           :theme="isDark ? 'dark' : 'light'"
           lang="zh-CN"
-          loading="lazy"
           strict="1"
           mapping="title"
           crossorigin="anonymous"

@@ -9,11 +9,12 @@ export default defineConfig({
   description: '记录学习、生活、书单',
 
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
       'meta',
       { name: 'google-site-verification', content: 'H9EAJ4-2OSGTFlSc_rF8Ht16HFos4Ulgjj1HQFCydRU' },
     ],
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-753431egST' }],
     [
       'script',
       {},
@@ -29,6 +30,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
     nav: [
       { text: '主页', link: '/' },
       { text: '学习', link: '/docs/study/index', activeMatch: '/docs/study' },
@@ -65,6 +67,10 @@ export default defineConfig({
 
     // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
 
+    footer: {
+      copyright: ' 丨 <a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
+    },
+
     outlineTitle: '本页目录',
 
     lastUpdated: {
@@ -83,5 +89,8 @@ export default defineConfig({
       quote: '页面被外星人劫持了',
       linkText: '返回首页',
     },
+  },
+  sitemap: {
+    hostname: 'https://www.buerblog.cn',
   },
 })
