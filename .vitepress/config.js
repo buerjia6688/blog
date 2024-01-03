@@ -50,6 +50,7 @@ export default defineConfig({
             { text: 'Git Flow 工作流', link: '/docs/study/web/git-flow' },
             { text: '配置 Git Husky 代码提交约束', link: '/docs/study/web/git-husky' },
             { text: 'Promise/A+ 规范', link: '/docs/study/web/promise-a+' },
+            { text: 'Plop 简化重复工作流', link: '/docs/study/web/plop' },
             { text: '设计模式之发布订阅模式', link: '/docs/study/web/event-emitter' },
             { text: 'provide/inject 依赖注入', link: '/docs/study/web/provide-inject' },
             { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
