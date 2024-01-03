@@ -35,17 +35,18 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '学习', link: '/docs/study/index', activeMatch: '/docs/study' },
-      { text: '生活', link: '/docs/life/index', activeMatch: '/docs/life' },
-      { text: '书单', link: '/docs/book/index', activeMatch: '/docs/book' },
+      { text: '学习', link: '/docs/study/index.html', activeMatch: '/docs/study' },
+      { text: '生活', link: '/docs/life/index.html', activeMatch: '/docs/life' },
+      { text: '书单', link: '/docs/book/index.html', activeMatch: '/docs/book' },
     ],
 
     sidebar: {
       '/docs/study': [
         {
-          text: '',
+          text: 'Web',
           collapsed: false,
           items: [
+            { text: '通过 nvm 管理 Node 版本', link: '/docs/study/web/nvm' },
             { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
             { text: 'provide/inject 依赖注入', link: '/docs/study/web/provide-inject' },
           ],
