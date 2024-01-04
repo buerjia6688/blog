@@ -1,3 +1,7 @@
+---
+keywords: 'Vue,Vue 3,依赖注入,组件通信,组件间通信,组件间通信方式,provide,inject'
+---
+
 # provide/inject 依赖注入
 
 在我们日常开发的过程中，我们需要从父组件向子组件传递数据，会使用 `props`。

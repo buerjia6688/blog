@@ -1,3 +1,7 @@
+---
+keywords: 'position,sticky,CSS定位属性,定位属性,CSS 定位,CSS定位属性sticky'
+---
+
 # 你可能真的不会 sticky
 
 `position: sticky` 是开发中相对高频的一个用法，不过在最近的项目中竟然被我玩翻车了，设置了`sticky`尽然不生效了，于是便想一探究竟。

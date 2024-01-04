@@ -46,15 +46,42 @@ export default defineConfig({
           text: 'Web',
           collapsed: false,
           items: [
-            { text: '通过 nvm 管理 Node 版本', link: '/docs/study/web/nvm' },
-            { text: 'Git Flow 工作流', link: '/docs/study/web/git-flow' },
-            { text: '配置 Git Husky 代码提交约束', link: '/docs/study/web/git-husky' },
-            { text: 'Promise/A+ 规范', link: '/docs/study/web/promise-a+' },
-            { text: 'Plop 简化重复工作流', link: '/docs/study/web/plop' },
-            { text: '设计模式之发布订阅模式', link: '/docs/study/web/event-emitter' },
-            { text: '你可能真的不会sticky', link: '/docs/study/web/position-sticky' },
-            { text: 'provide/inject 依赖注入', link: '/docs/study/web/provide-inject' },
-            { text: '前端导出表格天花板', link: '/docs/study/web/exceljs' },
+            {
+              text: '通过 nvm 管理 Node 版本',
+              link: '/docs/study/web/nvm',
+            },
+            {
+              text: 'Git Flow 工作流',
+              link: '/docs/study/web/git-flow',
+            },
+            {
+              text: '配置 Git Husky 代码提交约束',
+              link: '/docs/study/web/git-husky',
+            },
+            {
+              text: 'Promise/A+ 规范',
+              link: '/docs/study/web/promise-a+',
+            },
+            {
+              text: 'Plop 简化重复工作流',
+              link: '/docs/study/web/plop',
+            },
+            {
+              text: '设计模式之发布订阅模式',
+              link: '/docs/study/web/event-emitter',
+            },
+            {
+              text: '你可能真的不会 sticky',
+              link: '/docs/study/web/position-sticky',
+            },
+            {
+              text: 'provide/inject 依赖注入',
+              link: '/docs/study/web/provide-inject',
+            },
+            {
+              text: '前端导出表格天花板',
+              link: '/docs/study/web/exceljs',
+            },
           ],
         },
       ],
@@ -91,6 +118,9 @@ export default defineConfig({
       },
     },
 
+    sidebarMenuLabel: '目录',
+    returnToTopLabel: '返回顶部',
+
     docFooter: { prev: '上一页', next: '下一页' },
 
     notFound: {
@@ -101,5 +131,16 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://www.buerblog.cn',
+  },
+
+  transformPageData(pageData) {
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.keywords ??= '博客,学习,生活,书单,记录,blog'
+
+    // // vitepress 不让修改 description
+    pageData.frontmatter.head.push([
+      'meta',
+      { name: 'keywords', content: pageData.frontmatter.keywords + ',不二博客' },
+    ])
   },
 })

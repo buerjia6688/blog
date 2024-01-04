@@ -1,3 +1,7 @@
+---
+keywords: 'Promise,Promise/A+,Promise/A+ 规范,Promise 规范,Promise 实现,Promise/A+ 实现'
+---
+
 # Promise/A+ 规范
 
 `Promise` 是 `TC39` 委员会制定的范式；我们在 `JavaScript` 中使用的 `Promise` 对象其实是 `A+` 规范的实现，我们把这种规范称为 `Promise/A+` 规范。
