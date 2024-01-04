@@ -59,6 +59,10 @@ export default defineConfig({
               link: '/docs/study/web/git-husky',
             },
             {
+              text: '解决前端白屏加载时长问题',
+              link: '/docs/study/web/vite-build-performance',
+            },
+            {
               text: 'Promise/A+ 规范',
               link: '/docs/study/web/promise-a+',
             },
