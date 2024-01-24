@@ -28,9 +28,9 @@ export default defineConfig({
     ],
   ],
 
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+  cleanUrls: true,
 
+  themeConfig: {
     logo: '/logo.jpg',
 
     nav: [
@@ -43,9 +43,21 @@ export default defineConfig({
     sidebar: {
       '/docs/study': [
         {
-          text: 'Web',
+          text: '前端',
           collapsed: false,
           items: [
+            {
+              text: '了解 Vite 插件',
+              link: '/docs/study/web/vite-plugin',
+            },
+            {
+              text: '表格封装之 useForm 封装',
+              link: '/docs/study/web/use-form',
+            },
+            {
+              text: '表格封装之 useTable 封装',
+              link: '/docs/study/web/use-table',
+            },
             {
               text: '通过 nvm 管理 Node 版本',
               link: '/docs/study/web/nvm',
