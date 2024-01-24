@@ -1,3 +1,7 @@
+---
+keywords: 'vite,vite插件,rollup,插件,vue3,typescript'
+---
+
 # 了解 Vite 插件
 
 众所周知 `Vite` 是基于 `Rollup` 的构建工具，`Vite` 插件为了优化、扩展项目构建系统功能的工具。
