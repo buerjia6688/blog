@@ -47,6 +47,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              text: '如何发布 NPM 包',
+              link: '/docs/study/web/npm-publish',
+            },
+            {
               text: '了解 Vite 插件',
               link: '/docs/study/web/vite-plugin',
             },
@@ -120,7 +124,8 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/like-buer/blog' }],
 
     footer: {
-      copyright: '<a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
+      // message: '不二博客 ©2024 | <a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
+      copyright: '不二博客 ©2024 | <a href="https://beian.miit.gov.cn">鄂ICP备19003496号-2</a>',
     },
 
     outlineTitle: '本页目录',

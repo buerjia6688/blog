@@ -6,11 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "build": "rm -rf www* && vitepress build",
+    "preview": "vitepress preview"
   },
   "author": "",
   "license": "ISC",
