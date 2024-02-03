@@ -13,6 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "@giscus/vue": "^2.4.0",
-    "vitepress": "^1.0.0-rc.33"
+    "vitepress": "^1.0.0-rc.41"
   }
 }
