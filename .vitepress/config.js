@@ -158,7 +158,7 @@ export default defineConfig({
     pageData.frontmatter.head ??= []
     pageData.frontmatter.keywords ??= '博客,学习,生活,书单,记录,blog'
 
-    // // vitepress 不让修改 description
+    // vitepress 不让修改 description
     pageData.frontmatter.head.push([
       'meta',
       { name: 'keywords', content: pageData.frontmatter.keywords + ',不二博客' },
